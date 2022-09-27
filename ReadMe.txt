@@ -27,7 +27,7 @@ perl ReadCountsCoverage.pl 21346-R2.piRNA.txt  piRNA_clusterAnnotation.txt
 perl ReadCountsCoverage.pl 21346-R3.piRNA.txt  piRNA_clusterAnnotation.txt
 
 
-#Reports the depth of piRNA reads at piRNA cluster intervals.
+#Reports the depth of piRNA reads at piRNA clusters.
 
 #USAGE: perl piRNA_clusterCoverage.pl [ReadCountCoverage read file] 
 
