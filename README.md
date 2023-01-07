@@ -14,4 +14,4 @@ to double-stranded breaks and enhanced DNA repair, explaining their ability to w
 reveals a diversity of mechanisms whereby host genotype modulates the cost of an invading TE, and points to genetic variants that were likely 
 beneficial during the P-element invasion.
 
-# piRNA-cluster-Coverage-script: These are the script to determine piRNA cluster read counts mapped to a set of annotated piRNA clusters.
+# piRNA-cluster-Coverage-script: These are the scripts to count piRNAs mapped to a set of annotated piRNA clusters.
