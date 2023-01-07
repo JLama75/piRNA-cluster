@@ -1,4 +1,4 @@
-#Reports the depth of piRNA reads at each genome position within each piRNA clusters.
+#Counts the piRNA reads at each genome position within the piRNA clusters.
 
 #USAGE: perl ReadCountsCoverage.pl [uniquely mapped piRNA read file] [piRNA cluster Annotation file]
 
@@ -27,7 +27,7 @@ perl ReadCountsCoverage.pl 21346-R2.piRNA.txt  piRNA_clusterAnnotation.txt
 perl ReadCountsCoverage.pl 21346-R3.piRNA.txt  piRNA_clusterAnnotation.txt
 
 
-#Reports the depth of piRNA reads at piRNA clusters.
+#Reports the depth of piRNA reads at piRNA cluster intervals.
 
 #USAGE: perl piRNA_clusterCoverage.pl [ReadCountCoverage read file] 
 
