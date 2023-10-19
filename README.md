@@ -1,3 +1,10 @@
+#These scripts are used in preforming analysis and generating figures in manuscript:
+
+Lama J, Srivastav S, Tasnim S, Hubbard D, Hadjipanteli S, Smith BR, Macdonald SJ, Green L, Kelleher ES. Genetic variation in P-element dysgenic 
+sterility is associated with double-strand break repair and alternative splicing of TE transcripts. PLoS Genet. 2022 Dec 7;18(12):e1010080. 
+doi: 10.1371/journal.pgen.1010080. PMID: 36477699; PMCID: PMC9762592.
+
+# piRNA-cluster-Coverage-script: These are the scripts to count piRNAs mapped to a set of annotated piRNA clusters.
 
 #Title: Genetic variation in P-element dysgenic sterility is associated with double-strand break repair and alternative splicing of TE transcripts
 
@@ -14,4 +21,3 @@ to double-stranded breaks and enhanced DNA repair, explaining their ability to w
 reveals a diversity of mechanisms whereby host genotype modulates the cost of an invading TE, and points to genetic variants that were likely 
 beneficial during the P-element invasion.
 
-# piRNA-cluster-Coverage-script: These are the scripts to count piRNAs mapped to a set of annotated piRNA clusters.
