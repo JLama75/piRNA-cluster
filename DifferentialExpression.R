@@ -77,12 +77,12 @@ sizeFactors(dds)
 #Perform differential expression between BB6/sensitive an BB4/tolerant genotypes
 res <- results(dds, contrast=c("genotype","BB6","BB4")) 
 res1 <- res %>% data.frame()
-
-#density plot
-
 write.csv(normalized_counts, "normalized_counts_piRNAcluster.csv")
 write.csv(all.counts, "rawcounts_piRNAcluster.csv")
 
+#################################################################################################################
+
+#density plot
 res1$cluster <- rownames(res1) 
 res1 <- res1[,c(7,1:6)]
 res1$cluster <- gsub(":", ",", res1$cluster)
@@ -101,7 +101,6 @@ write.csv(res2, "DiffExp_piRNAcluster.csv")
 ################################################################################
 
 #Make PCA plot
-
 rld <- rlog(dds)
 plotPCA(rld, intgroup = c("pair" , "genotype"), ntop =497) 
 #plotPCA(rld, intgroup =  "genotype", ntop = 497)
@@ -127,8 +126,6 @@ ggplot(PCA_graph2, aes(PC1, PC2, group)) +  geom_point( aes(color=group, shape =
   theme_bw()+ mynamestheme + theme(legend.position="top")
 
 ggsave("PCplot_shapes_new.pdf",width=7,height=5)
-
-
 
 #######################################################
 
@@ -198,7 +195,6 @@ genes<- as.data.frame(PCA1$loadings)
 
 PC_1<- subset(genes[,1:2])
 PC_2<- subset(genes[,c(1,3)])
-
 
 ################################################################################
 ################################################################################
